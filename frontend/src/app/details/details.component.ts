@@ -42,7 +42,6 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
       </form>
     </section>
 
-
   </article>
   `,
   styleUrls: ['./details.component.scss']
