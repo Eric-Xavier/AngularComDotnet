@@ -5,13 +5,13 @@ import { Component } from '@angular/core';
   /*templateUrl: './app.component.html',*/
   template: `
   <main>
-    <a [routerLink]="['/']" title="Home">
+    <a [routerLink]="['/']">
       <header class="brand-name">
-        <img class="brand-logo" src="/assets/home-logo.svg" alt="logo" aria-hidden="true">
+        <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
       </header>
     </a>
     <section class="content">
-    <app-home></app-home>
+      <router-outlet></router-outlet>
     </section>
   </main>
 `,
